@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope;
+  background: radial-gradient(circle at top left, #002853, #040C18,#040C18);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+
+}
+
+.the-navbar{
+  margin-left: 100px;
+}
+
+.nav-btn{
+  margin-left: 250px !important;
+}
+.i-btn{
+  margin-right: 20px;
+}
+
+.nav-list{
+  margin-left: 30px;
+}
+
+.home h1{
+  background: linear-gradient(to right,#AE67FA,#F49867);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+
+.home p{
+  color: #81AFDD;
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+
+.home small{
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 9px;
+  padding-left: 5px;
+}
+
+::placeholder{
+  color: #3D6184;
+}
+
+.first-hr, .second-hr, .third-hr, .forth-hr{
+  height: 1px;
+  background: linear-gradient(to right,#AE67FA,#F49867);
+  width: 6%;
+  margin: 0;
+} 
+
+
+.row h5{
+  color: #FFFFFF;
+}
+
+.row p{
+  color: #81AFDD;
+  font-weight: 400;
+  font-size: 13px;
+
+}
+
+.about-two h3, .row h3{
+   background: linear-gradient(to right,#AE67FA,#F49867);
+   background-clip: text;
+  color: transparent;
+}
+
+.about-two p, .row-p{
+  color: #FF8A71;
+
+}
+
+.request-card{
+  background-image: linear-gradient(to right,#AE67FA,#F49867);
+
+}
+
+.r-btn{
+  padding: 10 40px;
+}
+
+.features-card, .feature-card{
+  background-color: #042C54;
+}
+
+.features-top{
+   background: linear-gradient(to right,#AE67FA,#F49867);
+   background-clip: text;
+   color: transparent;
+}
+
+.features-card small, .features-card H6, .features-card h5{
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #031B34;
+  margin-top:50px ;
+}
+
+footer h1{
+  background:linear-gradient(to right,#AE67FA ,#F49867 );
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+footer ul li{
+  margin-bottom: 20px;
+}
+
+.f-btn{
+   color: #fff;
+    border: 1px solid white;
+    padding: 10px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+  
+  
+.the-navbar {
+    margin-left: 0 !important;
+    width: 100%;
+    padding: 10px 20px !important;
+  }
+
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand img {
+    width: 90px !important;
+  }
+
+  .navbar-toggler {
+    margin-left: auto !important;
+    border: none !important;
+  }
+
+  .hh{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .home{
+    padding: 20px;
+  }
+
+  .home h1{
+     text-align: center !important; 
+     margin-top: 10px;
+     font-size: 1.5rem;
+     font-weight: bold;
+     line-height: 1.3;
+  }
+
+  .home p{
+    text-align: center;
+     margin-top: 20px;
+     font-size: 1rem;
+     line-height: 1.6;
+     
+  }
+
+  .h-img{
+    text-align: center !important;
+    width: 110px;
+  }
+
+ .home-img{
+  width: 60%;
+  height: auto;
+  margin-left: 60px;
+  
+ }
+
+ .logo-p {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 50px;
+  }
+
+  .logo-p img {
+    width: 70px;
+  }
+
+  .aa{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .about {
+    padding-left: 50px;
+  
+  }
+
+  .about-card {
+    justify-content: center;
+  }
+
+  .about-card h5{
+    text-align: center;
+  }
+
+  .first-hr, .second-hr, .third-hr, .forth-hr{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .about h3 {
+    font-size: 1.6rem;
+  }
+
+  .about p {
+    text-align: center;
+     margin-top: 0;
+     font-size: 1rem;
+     line-height: 1.6;
+  }
+
+  .about-two {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .steps-h{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .step-p{
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .first-hr{
+    margin: 0;
+  }
+
+  .steps{
+    display: block !important;
+  }
+
+  .ss{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .steps-h{
+    margin-top: 80px;
+  }
+
+  .step-p{
+    margin-bottom: 50px;
+  }
+
+
+  .steps h6{
+    font-size: 5px;
+    font-weight: 300;
+  }
+
+  .p-step{
+    font-size:8px ;
+  }
+
+  .rr{
+    margin: 0;
+    padding: 0 !important;
+  }
+
+
+  .r-img{
+    margin-top: 80px;
+    max-width: 280px !important;
+    padding-left: 25px;
+
+  }
+
+  .r-right{
+    max-width: 200px;
+    padding-left: 50px;
+    margin: 0 !important;
+  
+  }
+
+  .r-right h3{
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  .card-r{
+    max-width: 300px !important;
+    text-align: center;
+    padding-left: 50px !important;
+  }
+
+  .card-bottom{
+    display: block !important;
+  }
+
+
+  .request-card h5 {
+    font-size: 15px;
+  }
+
+  .request-card .btn {
+    padding: 8px 20px;
+  }
+
+  .features {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: 50px !important;
+  }
+
+  .features-top h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .ff {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+   .main-box {
+    margin: 0 auto !important;
+    text-align: center;
+  }
+
+  .f-card {
+    margin-left: 0 !important;
+    margin-top: 40px !important;
+  }
+
+   .card-one,
+   .card-two {
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-left: 0 !important;
+  }
+
+   .box-one,
+  .box-two,
+  .box-three,
+  .box-four {
+    margin: 15px 0 !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .card-content {
+    text-align: center !important;
+  }
+
+   .features-card h5,
+   .features-card h6 {
+    font-size: 14px !important;
+    line-height: 1.3;
+  }
+
+  .features-card small {
+    font-size: 10px !important;
+  }
+
+  footer{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+   footer h1 {
+    font-size: 15px;
+  }
+
+   .f-btn {
+    font-size: 9px;
+    padding: 8px 20px;
+  }
+
+
+  footer small {
+    font-size: 9px;
+  }
+
+  footer li {
+    font-size: 9px;
+  }
+
+  footer p{
+    font-size: 15px;
+  }
+
+  .footer-bottom{
+    display: block !important;
+    padding-left: 50px;
+  
+  }
+
+  
+
+
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
