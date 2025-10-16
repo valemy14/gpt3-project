@@ -315,6 +315,7 @@ footer ul li{
     max-width: 200px;
     padding-left: 50px;
     margin: 0 !important;
+    text-align: center;
   
   }
 
@@ -352,6 +353,7 @@ footer ul li{
     font-size: 20px;
     text-align: center;
     line-height: 1.4;
+   margin-right: 80px;
   }
 
   .ff {
@@ -392,6 +394,7 @@ footer ul li{
     text-align: center !important;
   }
 
+
    .features-card h5,
    .features-card h6 {
     font-size: 14px !important;
@@ -404,7 +407,7 @@ footer ul li{
 
   footer{
     margin: 0 !important;
-    padding: 0 !important;
+    
   }
    footer h1 {
     font-size: 15px;
